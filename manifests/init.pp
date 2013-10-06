@@ -3,9 +3,9 @@
 # Examples
 #
 #   include firefox
-class firefox ($locale = 'en-US'){
+class firefox ($locale = 'en-GB’){
   package { 'Firefox':
-    source   => "http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/20.0/mac/${locale}/Firefox%2020.0.dmg",
+    source   => "http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/24.0/mac/${locale}/Firefox%2024.0.dmg",
     provider => 'appdmg'
   }
 }
